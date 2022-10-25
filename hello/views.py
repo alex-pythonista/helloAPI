@@ -3,6 +3,11 @@ from django.http import HttpResponse
 def hello(request):
     return HttpResponse(
         """
-        <h1>Hello World! This is AlexPy.</h1>
+        <p>
+        Hello World! <br> 
+        This is AlexPy. This server is hosted on an Azure VM. <br>
+        The primary purpose of this project is to learn how to deploy <br>
+        a Django App on a VM using NGINX. <br>
+        </p>
         """
     )
